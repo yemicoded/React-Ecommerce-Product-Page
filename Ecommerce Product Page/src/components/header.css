@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+    
+}
+body {
+    font-family:'Red Hat Display', sans-serif;
+}
+.header{
+    margin: 30px 100px 30px 30px;
+    position: relative;
+}
+
+li {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0  15px;
+    font-size: 16px;
+    
+}
+li a {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    font-weight: 700;
+}
+.avatar {
+    position: absolute;
+    bottom: 25px;
+    height: 50px;
+    width: 50px;
+    right: 0;
+}
+.cart {
+    position: absolute;
+    bottom: 55%;
+    right: 100px;
+}
+hr {
+    margin-top: 35px;
+    margin-bottom: 80px;
+}
+.image{
+    height: 70vh;
+    width: 32vw;
+    border-radius: 15px;
+    
+}       
+.container {
+    display: flex;
+    max-width: 80%;
+    margin: auto;
+}
+.con {
+    margin-top: 0px;
+}
+.info {
+    margin-left: 100px;
+    margin-top: 30px;
+
+}
+h1 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h4 {
+    color: orange;
+    margin-bottom: 15px;
+}
+.sub-text{
+    line-height: 30px;
+    font-size: 20px;
+    color: rgb(117, 113, 107);
+    margin-bottom: 0;
+}
+.price {
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+span {
+    font-weight: bolder;
+    font-size: 18px;
+    background-color: rgb(245, 224, 199);
+    color: rgb(243, 141, 16);
+    padding:2px 5px;
+    position: absolute;
+    top: 5px;
+    left: 120px;
+    border-radius: 2px;
+}
+.slashed-price {
+    font-size: 18px;
+    color: rgb(180, 180, 175);
+    text-decoration: line-through;
+    margin-top: 5px;
+
+}
+.order {
+    display: flex;
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 30px ;
+    cursor: pointer;
+    
+    
+}
+.minus, .zero, .plus {
+    padding: 15px 17px;
+    font-size: 20px;
+    font-weight: 900 ;
+    background-color: rgb(206, 200, 194);
+}
+.plus {
+    color: rgb(236, 123, 17) ;
+    border-radius: 0 10px 10px 0  ;   
+}
+.minus {
+    color: rgb(236, 123, 17) ;
+    border-radius: 10px 0 0 10px;   
+}
+.mge {
+    height: 14vh;
+    width: 6.5vw;
+    margin: 10px;
+    border-radius: 5px;
+    border-color: orangered;
+}
+
+.mge:hover{
+    border: solid orangered 4px;
+    opacity: 0.4;
+}
+
+
+
+.ca--rt {
+    margin-left: 15px;
+    background-color: rgb(236, 123, 17) ;
+    padding: 17px 100px;
+    border-radius: 10px;
+    color: white;
+    position: relative;
+}
+.ca---rt {
+    position: absolute;
+    left: 70px;
+    top: 17px;
+    color: white;
+}
+
+#lightbox-img {
+    max-height: 70vh;
+    max-width: 50vw;
+    /* object-fit: cover; */
+    border-radius: 20px;
+    margin-top: 50px;
+}
+  
+#lightbox {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+.lightboxx {
+    z-index: 1;
+    position: fixed;
+    bottom: 2%;
+    left: 34%;
+}
+
+.icon-left {
+    position: absolute;
+    left: 32.5%;
+    top: 39%;
+    border: white;
+    border-radius: 50px;
+    height: 7%;
+    width: 3%;
+    padding-top: 4px; padding-right: 8px;
+}
+
+.icon-right {
+    position: absolute;
+    right: 32.5%;
+    top: 39%;
+    border: white;
+    border-radius: 50px;
+    height: 7%;
+    width: 3%;
+    padding-top: 4px; padding-left: 8px;
+}
+.icon-exit {
+    position: absolute;
+    right: 33%;
+    top: 2%;
+    border-radius: 5px;
+    border: white;
+    padding-top: 3px;
+}
